@@ -1,8 +1,7 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
-
+public class ejercicio15 {
+    static boolean comprobar_si_exsiste(char[] palabra, char character){}
+    public class Main {
+        public static void main(String[] args) {
             char[] Letras = {'J', 'A', 'V', 'A'};
             char[] Espacios = {'_', '_', '_', '_'};
             char intento1 = 'A';
@@ -21,4 +20,11 @@ public class Main {
             }
         }
     }
+}
+
+
+
+
+
+
 
