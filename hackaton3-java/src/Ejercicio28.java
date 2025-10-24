@@ -17,7 +17,22 @@ public class Ejercicio28 {
             }
         }
 
-        //
+        // Pintamos la matriz con unos en el triangulo superor derecho
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
+                if(i <= j) {
+                    matriz[i][j] = random.nextInt(9) + 1;
+                }
+            }
+        }
+
+        // Llenamos la matriz con ceros
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
